@@ -1,0 +1,6 @@
+selenium~=3.141.0
+bs4~=0.0.1
+beautifulsoup4~=4.9.3
+uvicorn~=0.14.0
+fastapi~=0.66.0
+pickle
