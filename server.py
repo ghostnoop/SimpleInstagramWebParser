@@ -25,4 +25,4 @@ if __name__ == '__main__':
     utils.load_cookie(driver)
     driver.refresh()
 
-    uvicorn.run("server:app", host="127.0.0.1", port=5000, log_level="info")
+    uvicorn.run("server:app", host="0.0.0.0", port=2021, log_level="info")
